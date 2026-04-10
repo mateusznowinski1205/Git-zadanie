@@ -1,0 +1,23 @@
+  104  git config --global user.name „Mateusz”
+  105  git init
+  106  git status
+  107  git add . 
+  108  git commit -m "Wypchanie zmplikow do zdalnego gita"
+  109  git push --set-upstream https://github.com/mateusznowinski1205/Git-zadanie.git
+  110  git push
+  111  git remote origin https://github.com/mateusznowinski1205/Git-zadanie.git
+  112  git remote add origin https://github.com/mateusznowinski1205/Git-zadanie.git
+  113  git push
+  114  git push --set-upstream https://github.com/mateusznowinski1205/Git-zadanie.gitmaster
+  115  git push --set-upstream origin master
+  116  git status
+  117  git branch -m master main~
+  118  git branch -m master main
+  119  git push -u origin main
+  120  git fetch
+  121  git push -u origin main
+  129  git pull --rebase origin main
+  130  git push -u origin main
+  131  git status
+  132  git push origin --delete master
+  133  history 30 > /c/NPWBIT/historia_ostatnie.txt
